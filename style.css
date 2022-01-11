@@ -1,0 +1,11 @@
+.pageTitleBox{
+    border: 2px solid blue;
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 300px;
+    margin-left: 40%;
+}
+.pageTitle{
+    color: brown;
+    text-align: center;
+}
