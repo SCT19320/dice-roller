@@ -9,3 +9,15 @@
     color: brown;
     text-align: center;
 }
+.diceDisplay{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    border: 2px solid black;
+}
+
+
+.diceRollerButton{
+    margin-left: 45%;
+    margin-top: 20%;
+}
