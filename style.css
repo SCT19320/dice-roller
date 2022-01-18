@@ -1,9 +1,13 @@
+body{
+    background: linear-gradient(#e92e3d, #ff6e6a) 0 100% no-repeat;
+}
+
 .pageTitleBox{
     border: 2px solid blue;
     box-sizing: border-box;
     background-color: yellow;
     width: 300px;
-    margin-left: 40%;
+    margin-left: 41.5%;
 }
 .pageTitle{
     color: brown;
@@ -12,12 +16,24 @@
 .diceDisplay{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
-    border: 2px solid black;
+    align-content: center;
+    margin-left: 42%;
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
 }
 
 
 .diceRollerButton{
-    margin-left: 45%;
-    margin-top: 20%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    margin-left: 850px;
+}
+
+.diceRollerButtonText{
+    font-size: 24px;
 }
