@@ -1,39 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+ 
+*{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
 body{
-    background: linear-gradient(#e92e3d, #ff6e6a) 0 100% no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#e92e3d, #5e2e2c) 0 100% no-repeat;
 }
 
 .pageTitleBox{
-    border: 2px solid blue;
     box-sizing: border-box;
-    background-color: yellow;
     width: 300px;
-    margin-left: 41.5%;
 }
 .pageTitle{
-    color: brown;
+    color: black;
     text-align: center;
+    font-size: 180px;
 }
 .diceDisplay{
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-left: 42%;
     width: 300px;
     height: 300px;
-    margin-top: 40px;
 }
 
-
-.diceRollerButton{
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    border-radius: 20px;
-    height: 100px;
+.diceRollerButton button{
     width: 300px;
-    margin-left: 850px;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: black;
+    background-color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 9px black;
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  
+button:hover {
+    background-color: #3e8e41
 }
-
-.diceRollerButtonText{
-    font-size: 24px;
-}
+  
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px white;
+    transform: translateY(4px);
+  }
